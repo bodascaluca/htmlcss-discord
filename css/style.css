@@ -59,6 +59,23 @@ color: black;
     border-radius:50px;
     font-size:.9em;
 }
+
+.btn-dark{
+    background-color: #24272a;
+    color: white;
+    }
+
+.btn-large{
+    display: inline-block;
+    padding: .7em 2em;
+    border-radius: 50px;
+}
+/* PROPRIETA' DI TESTO  */
+.text{
+    font-size: .9em;
+    line-height:1.8em;
+}
+
 /* HEADER  */
 header{
     background-color:#3161e0 ;
@@ -71,7 +88,9 @@ header{
 }
 
 .nav-logo img{
+    width: auto;
     vertical-align: middle ;
+    height: 40px;
 }
 
 .nav-logo,
@@ -103,6 +122,41 @@ header{
     text-align: end;
 }
 
+/* MAIN  */
+/* Jumbotron */
+.jumbotron{
+    /* height: 400px; */ /* LO USEREMO SENZA MAGARI SI AGGIUNGE ROBA IN FUTURO */
+    background-image: url(../img/jumbo.png);
+    background-size: cover ;
+    background-position:center;
+    background-repeat: no-repeat;
+    padding: 8em 0;
+    text-align: center;
+    /* position: relative; */ /* Volevo usare position absoliute per suo figlio */
+}
 
+.jumbotron-content{
+    width: 50%;
+    /* text-align: center; */
+    color: white;
+    margin: 0 auto; /*  Per distanziarlo in verticale, usuamo padding, ma su jumbotron */
+    /* SI POTREBBE FARE ANCHE COSI', MA SI ABUSA DI ABSOLUTE */
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */ /*  */
+}
 
+.jumbotron-content .jumbotron-title{
+    font-size:2.5em;
+    margin-bottom: .8em;
+}
+
+.jumbotron .buttons{
+    margin-top: 1em;
+}
+
+.jumbotron .buttons :first-child{
+    margin-right: 1em;
+}
 
