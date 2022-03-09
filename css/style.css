@@ -23,6 +23,10 @@ a{
 text-decoration: none;
 }
 
+.grey{
+    background-color: lightgrey;
+}
+
 /* STRUTTURA BLOCCHI PAGINA  */
 .container{
     width: 80%;
@@ -193,6 +197,26 @@ header{
 .col-text h1{
     line-height: 2.3em;
 }
+
+.col-text4{
+    width: 100%;
+    /* background-color: #e91212; */
+    text-align: center;
+    margin-top: 2.9em;
+    padding:0 3em;
+}
+
+.col-img4{
+    width: 100%;
+    height: 500px;
+    /* background-color: pink; */
+    background-image: url(../img/item4-big.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
 
 
 
