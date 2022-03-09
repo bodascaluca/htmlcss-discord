@@ -215,6 +215,21 @@ header{
     background-size: cover;
 }
 
+.col-img5{
+    width: 100%;
+    height: 200px;
+    /* background-color: pink; */
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.onda{
+    height: 100px;
+    background-image: url(../img/wave.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 
