@@ -1,0 +1,108 @@
+/* RESET  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON  */
+html {
+    font-family: "Whitney", sans-serif;
+    font-size: 100%;
+}
+
+img{
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+text-decoration: none;
+}
+
+/* STRUTTURA BLOCCHI PAGINA  */
+.container{
+    width: 80%;
+    max-width: 1400px;
+    margin: 0 auto;
+
+    /* TEST  */
+    /* border: 2px solid red; */
+}
+
+.clearfix::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+.col{
+    float: left;
+
+    /* TEST */
+    /* width: 60px; */
+    height: 60px;
+    /* background-color: blueviolet; */
+}
+
+/* BOTTONI */
+.btn-white{
+background-color: white;
+color: black;
+}
+
+.btn-small{
+    padding: .5em 1em;
+    border-radius:50px;
+    font-size:.9em;
+}
+/* HEADER  */
+header{
+    background-color:#3161e0 ;
+    height: 60px;
+}
+
+.header-nav{ /* Lo diamo al contenitore perché è un comda eriditabile essendo testo e poi serve a tutti  */
+    line-height: 60px;/* non middle perché devi darli un altezza a cui fare riferimento  */
+    color: white;
+}
+
+.nav-logo img{
+    vertical-align: middle ;
+}
+
+.nav-logo,
+.nav-btn{
+    width: 15%;
+
+    /* TEST  */
+    /* background-color: rgb(240, 6, 6); */
+}
+
+.nav-center{
+    width: 70%;
+    text-align: center;
+    /* TEST  */
+    /* background-color: blueviolet; */
+}
+
+.nav-center .header-menu li{
+    margin:0 1em;
+    display:inline-block
+}
+
+.nav-center .header-menu a{
+    font-size: 1em;
+    font-family: bold;
+    color: inherit;
+}
+.nav-btn{
+    text-align: end;
+}
+
+
+
+
